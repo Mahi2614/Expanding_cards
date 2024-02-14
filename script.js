@@ -1,5 +1,5 @@
 const panels = document.querySelectorAll('.panel')
-
+//on clicking event must update
 panels.forEach((panel) => {
   panel.addEventListener('click', () => {
     //to remove active classes
